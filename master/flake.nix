@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-spryvm-master.flake = false;
+  inputs.src-spryvm-master.ref   = "refs/heads/master";
   inputs.src-spryvm-master.owner = "gokr";
-  inputs.src-spryvm-master.ref   = "master";
   inputs.src-spryvm-master.repo  = "spryvm";
   inputs.src-spryvm-master.type  = "github";
   
