@@ -1,0 +1,5 @@
+*.ndb
+all
+spry*test
+test.db
+all.dSYM/
